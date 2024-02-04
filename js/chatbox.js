@@ -1,9 +1,9 @@
 $(function() {
     var INDEX = 0; 
     $("#chat-submit").click(function(e) {
-      //window.open("https://api.whatsapp.com/send/?phone=840397397770&text=Hi", "_blank");
-    //  e.preventDefault();
-    //   var msg = $("#chat-input").val(); 
+    var msg = $("#chat-input").val();
+    e.preventDefault();
+    window.open(`https://api.whatsapp.com/send/?phone=840397397770&text=${msg}`, "_blank");
     //   if(msg.trim() == ''){
     //     return false;
     //   }
