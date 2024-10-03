@@ -3,7 +3,7 @@ $(function() {
     $("#chat-submit").click(function(e) {
     var msg = $("#chat-input").val();
     e.preventDefault();
-    window.open(`https://api.whatsapp.com/send/?phone=840397397770&text=${msg}`, "_blank");
+    window.open(`https://api.whatsapp.com/send/?phone=840363710444&text=${msg}`, "_blank");
     //   if(msg.trim() == ''){
     //     return false;
     //   }
